@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <form action="mailto:sindhu@gmail.com" method="POST" enctype="text/plain">
+    <table>
+        <tr>
+          <td><label for="name">User Name</label></td>
+          <td><input type="text" id="name" name="Your Name:"></td>
+        </tr>
+        <tr>
+          <td><label for="">Password</label></td>
+          <td><input type="password" required></td>
+        </tr>
+        <tr>
+          <td><label for="">Email</label></td>
+          <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td><input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" >Female</label></td>
+        </tr>
+       <tr>
+            <td><label for="">Past Experience(Yes/No)</label></td>
+            <td><input type="checkbox" id="Yes" name="Yes" value="Yes">
+            <label for="Yes"></label></td>
+        </tr>
+        <tr>
+            <td><label for="States">State</label></td>
+            <td><select name="States" id="States">
+                <!--size="3" is used to set the visible states in web page-->
+                <option value="Andhra Pradesh" selected>Andhra Pradesh</option>
+                <option value="TamilNadu">TamilNadu</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+            </select></td>
+        </tr>
+       <tr>
+       <td><label for="">Comments</label></td>
+       <td><textarea name="Comments" id="Comments" cols="50" rows="2"></textarea></td>
+       </tr>
+       <tr>
+       <td><label for="Save"></label><input type="button" id="Save" name="Save" value="Save">
+       <input type="submit"></td>
+       </tr>
+    </table>
+    </form>
+</body>
+</html>
